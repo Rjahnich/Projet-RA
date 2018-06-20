@@ -1,22 +1,11 @@
-# from pykinect2 import PyKinectV2
-# from pykinect2.PyKinectV2 import *
-# from pykinect2 import PyKinectRuntime
 
-# import ctypes
-# import _ctypes
 import pygame
 from pygame.locals import *
 import sys
 import os
-
-# if sys.hexversion >= 0x03000000:
-    # import _thread as thread
-# else:
-    # import thread
-
-
 pygame.init()
 
+#Chemin du dossier à changer !
 os.chdir("C:/Users/Remi-laptop/Desktop/Projet_Kinect/Interface")
 
 etat_fond = 0;
@@ -56,7 +45,7 @@ bloquage3 = 0
 bloquage4 = 0
 bloquage5 = 0
 bloquage6 = 0
-#Lecture de la position des cibles
+
 
 #Lecture de la sauvegarde des noms de parcours
 fichier = open("Save_Parcours_Facile.txt","r")
