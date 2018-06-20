@@ -32,3 +32,4 @@ pip install pygame
 (Certaines librairies sont déjà intallés selon la version de Python que vous utilisez)
 
 ## Utilisation du programme
+
