@@ -34,5 +34,7 @@ pip install pygame
 ## Utilisation de l'interface
 
 Pour utiliser l'interface, il faut mettre le programme "interface.py" ainsi que les deux fichier "Images interface" et "Fichier de sauvegarde" dézipper dans un même dossier.
-Changer le chemin de dossier dans le programme "interface.py" 
+Changer le chemin de dossier dans le programme "interface.py"-ligne 9 avec le vôtre.
+
+
 
