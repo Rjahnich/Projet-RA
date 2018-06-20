@@ -1,7 +1,9 @@
 # Projet-RA
 Mur d'escalade en réalité augmenté
 Projet Lpro MECSE Sesam IUT CACHAN 2018
-
+```
+Ce projet n'est pas fini, voir la fin de ce README pour voir les étapes maquantes
+````
 Le but de ce projet est de creer un jeu d'escalade en utilisant une kinect.
 Dans ce projet nous allons utiliser Python pour la programmation.
 Pour l'interface du jeu, nous allons utiliser la librairie Pygame et pour la gestion de la kinect, la librairie PyKinect2.
@@ -36,5 +38,24 @@ pip install pygame
 Pour utiliser l'interface, il faut mettre le programme "interface.py" ainsi que les deux fichier "Images interface" et "Fichier de sauvegarde" dézipper dans un même dossier.
 Changer le chemin de dossier dans le programme "interface.py"-ligne 9 avec le vôtre.
 
+## Parie Interface
 
+L'interface comprend 3 écrans :
 
+* Accueil 
+
+Un choix de 4 niveau :facile, moyen, difficile, personnalisé
+
+* Edition 
+
+Encore un choix entre 3 parcours. Les noms des différents parcours sont modifiables (avec le bouton éditer de l'interface) et enregistrés à chaque modification dans un fichier texte.
+Après le choix d'un parcours, le programme lit les positions des cibles dans deux fichiers texte (un pour la position X, et l'autre pour la position Y). Un bouton "modification cibles" présent sur l'interface permet de déplacer les cibles et de les re-enregistrer par la suite.
+
+* Jeu
+
+Vision du jeu
+
+## Partie Kinect
+
+Pour la partie Kinect nous sommes partis de l'exemple [PyKinectBodyGame.py](https://github.com/Kinect/PyKinect2/blob/master/examples/PyKinectBodyGame.py) pour avoir la détection du squelette.
+Ensuite nous avons supprimé les traits du squelette pour garder que la position des mains. Pour finir nous avons affichier un cercle sur chaque main pour avoir un visuel de la détection.
