@@ -1,4 +1,4 @@
-# Projet-RA
+# Projet-RA (Réalité augmentée)
 Mur d'escalade en réalité augmenté
 Projet Lpro MECSE Sesam IUT CACHAN 2018
 ```
