@@ -4,7 +4,7 @@ Projet Lpro MECSE Sesam IUT CACHAN 2018
 ```
 Ce projet n'est pas fini, voir la fin de ce README pour voir les étapes maquantes
 ````
-Le but de ce projet est de creer un jeu d'escalade en utilisant une kinect.
+Le but de ce projet est de créer un jeu d'escalade en utilisant une kinect.
 Dans ce projet nous allons utiliser Python pour la programmation.
 Pour l'interface du jeu, nous allons utiliser la librairie Pygame et pour la gestion de la kinect, la librairie PyKinect2.
 ## Matériels
@@ -58,9 +58,9 @@ Vision du jeu
 ## Partie Kinect
 
 Pour la partie Kinect nous sommes partis de l'exemple [PyKinectBodyGame.py](https://github.com/Kinect/PyKinect2/blob/master/examples/PyKinectBodyGame.py) pour avoir la détection du squelette.
-Ensuite nous avons supprimé les traits du squelette pour garder que la position des mains. Pour finir nous avons affichier un cercle sur chaque main pour avoir un visuel de la détection.
+Ensuite nous avons supprimé les traits du squelette pour ne garder que la position des mains. Pour finir nous avons affiché un cercle sur chaque main pour avoir un visuel de la détection.
 
 # Reste à faire
 
-* Dans la l'écran d'édition : Récupérer une image de la kinect et placer les cibles sur celle-ci. (Pour l'instant les cibles sont placés sur un fond noir)
-* Dans la l'écran de jeu : Affichage de l'image récupéré par la kinect avec les différentes cibles présentent sur celle-ci. Si le joueur reste avec sa main plus de une seconde dans la cible, la cible change de couleur ou disparait et un système de score qui s'implémente à chaque cible touché.
+* Dans l'écran d'édition : Récupérer une image de la kinect et placer les cibles sur celle-ci. (Pour l'instant les cibles sont placées sur un fond noir)
+* Dans l'écran de jeu : Affichage de l'image récupérée par la kinect avec les différentes cibles présentent sur celle-ci. Si le joueur reste avec sa main plus de une seconde dans la cible, la cible change de couleur ou disparait et un système de score s'implémente à chaque cible touché.
