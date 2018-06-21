@@ -44,7 +44,7 @@ L'interface comprend 3 écrans :
 
 * Accueil 
 
-Un choix de 4 niveau :facile, moyen, difficile, personnalisé
+Un choix de 4 niveau : facile, moyen, difficile, personnalisé
 
 * Edition 
 
