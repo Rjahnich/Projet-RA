@@ -49,7 +49,7 @@ Un choix de 4 niveau : facile, moyen, difficile, personnalisé
 * Edition 
 
 Un autre choix entre 3 parcours. Les noms des différents parcours sont modifiables (avec le bouton éditer de l'interface) et enregistrés à chaque modification dans un fichier texte.
-Après le choix d'un parcours, le programme lit les positions des cibles dans deux fichiers texte (un pour la position X, et l'autre pour la position Y). Un bouton "modification cibles" présent sur l'interface permet de déplacer les cibles et de les re-enregistrer par la suite.
+Après le choix d'un parcours, le programme lit les positions des cibles dans deux fichiers texte (un pour la position X, et l'autre pour la position Y). Un bouton "modification cibles" présent sur l'interface permet de déplacer les cibles et de les réenregistrer par la suite.
 
 * Jeu
 
