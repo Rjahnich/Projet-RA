@@ -38,7 +38,7 @@ pip install pygame
 Pour utiliser l'interface, il faut mettre le programme "interface.py" ainsi que les deux fichier "Images interface" et "Fichier de sauvegarde" dézipper dans un même dossier.
 Changer le chemin de dossier dans le programme "interface.py"-ligne 8 avec le vôtre.
 
-## Parie Interface
+## Partie Interface
 
 L'interface comprend 3 écrans :
 
